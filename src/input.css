@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+/* Preline UI */
+@source "../node_modules/preline/dist/*.js";
+@import "../node_modules/preline/variants.css";
+
+/* Plugins */
+@plugin "@tailwindcss/forms";
+
+@layer components { .hide-scrollbar { scrollbar-width: 0px; scrollbar-color: transparent; } .hide-scrollbar::-webkit-scrollbar { display: none; } }
